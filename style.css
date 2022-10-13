@@ -1,0 +1,214 @@
+html, body {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	line-height: 1.6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Futura', monospace;
+	background-color: #26e2ce;
+	background-size: cover;
+	color: #fff;
+}
+
+/*Profile*/
+
+.profile__wrap {
+	text-align: center;
+}
+
+.profile__contact{
+	margin-top: 15px;
+}
+
+.profile__photo {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+	margin-top: -20px;
+}
+
+.profile__info h1 {
+	font-size: 37px;
+	display: inline-block;
+	font-family: 'Futura', sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+
+
+.profile__intro {
+	font-family: 'Futura'; 
+	font-size: 20px;
+	max-width: 500px;
+	line-height: 1.1;
+	color: #f1f5ff;
+	margin-top: -15px;
+	margin-bottom: 5px;
+}
+
+.profile__intro a {
+	color: #fff;
+}
+
+.tiktok {
+	display: inline-block;
+	background-color: #008cff;
+	padding: 1px 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 99rem;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+	transition: .25s ease;
+}
+
+.nimo {
+	display: inline-block;
+	background-color: #008cff;
+	padding: 1px 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 99rem;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+	transition: .25s ease;
+}
+
+.instagram {
+	display: inline-block;
+	background-color: #008cff;
+	padding: 1px 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 99rem;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+	transition: .25s ease;
+}
+
+.saweria {
+	display: inline-block;
+	background-color: #008cff;
+	padding: 1px 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 99rem;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+	transition: .25s ease;
+}
+
+.youtube {
+	display: inline-block;
+	background-color: #008cff;
+	padding: 1px 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 99rem;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+	transition: .25s ease;
+}
+
+.nimo:hover {
+	background-color: transparent;
+	color: #fff;
+}
+.saweria:hover {
+	background-color: transparent;
+	color: #fff;
+}
+.youtube:hover {
+	background-color: transparent;
+	color: #fff;
+}
+.instagram:hover {
+	background-color: transparent;
+	color: #fff;
+}
+.tiktok:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.social__links {
+	margin-top: 1rem;
+	list-style: none;
+}
+
+.social__links li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.social__links a {
+	font-size: 14px;
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+.social__links a:hover {
+	text-decoration: underline;
+}
+
+/*Responsive Styles*/
+
+@media (min-width: 1024px) {
+	.profile__wrap {
+		width: 900px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row-reverse;
+	}
+
+	.profile__photo {
+		margin-bottom: 0;
+		height: 240px;
+		width: 240px;
+	}
+
+	.profile__info {
+		text-align: left;
+		flex-basis: 70%;
+		width: 70%;
+	}
+
+	.profile__info h1 {
+		font-size: 40px;
+	}
+	
+	.nimo {
+		padding: 8px 2.5rem;
+	}
+	.instagram {
+		padding: 8px 2.5rem;
+	}
+
+	.saweria {
+		padding: 8px 2.5rem;
+	}
+	.tiktok {
+		padding: 8px 2.5rem;
+	}
+
+	.youtube {
+		padding: 8px 2.5rem;
+	}
+	.profile_contact {
+
+	}
+}
